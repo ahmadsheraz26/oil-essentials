@@ -1,0 +1,27 @@
+#Information_Links {
+    display: flex;
+    flex-direction: column;
+    font:550 normal 6rem/3rem PierSans;
+    font-size:2rem;
+    width: max-content;
+    span {
+        position: relative;
+        max-width: max-content;
+        &:after{
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            content:"";
+            width:0%;
+            height: 1px;
+            background-color: black;
+            transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+            overflow: hidden;
+        }
+        &:hover {
+            &:after{
+                width: 100%;
+            }
+        }
+    }
+}

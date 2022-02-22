@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'Golden-Sentry';
+  src: url("./assets/Font/GoldenSentry-pXBv.ttf");
+}
+
+html {
+  font-size: 0.6995vw;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #231f20;
+  font: 400 normal 1.8rem/1.5 Pitch;
+}
+/*# sourceMappingURL=index.css.map */

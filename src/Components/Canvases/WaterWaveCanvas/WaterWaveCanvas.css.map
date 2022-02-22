@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,eAAe,CAAC;EACZ,QAAQ,EAAE,QAAQ;EAClB,OAAO,EAAE,KAAK;CACjB;;AACD,AAAA,UAAU,CAAC;EACP,OAAO,EAAE,KAAK;EACd,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;CACf",
+    "sources": [
+        "WaterWaveCanvas.scss"
+    ],
+    "names": [],
+    "file": "WaterWaveCanvas.css"
+}

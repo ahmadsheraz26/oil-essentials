@@ -1,0 +1,32 @@
+#activeNumbero {
+    transform: rotate(-90deg);
+    font:400 normal 1.2rem/3rem Arial;
+    display: flex;
+    div {
+        display: inline-block;
+        position: relative;
+        width: 6.6rem;
+        text-align: center;
+        vertical-align: top;
+    }
+    :first-of-type {
+        position: relative;
+        margin: 0 12rem 0 0; 
+    }
+    #TotalPage {
+        &::before{
+            content: " ";
+            position: absolute;
+            height: 1px;
+            background-color: black;
+            width: 12rem;
+            right: 100%;
+            top: 50%;
+            transform-origin: 0 0;
+        }
+    }
+    .PageNo {
+        font-size:1rem;
+
+    }
+}

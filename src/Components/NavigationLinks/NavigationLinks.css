@@ -1,0 +1,80 @@
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  color: #231f20;
+  font: 400 normal 1rem/8rem Golden-Year;
+  font-size: 2rem;
+}
+
+nav div {
+  padding: 0rem 1.5rem;
+}
+
+nav div span {
+  display: block;
+  position: relative;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+nav div span:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 1px;
+  background-color: black;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+nav div span:hover {
+  cursor: pointer;
+}
+
+nav div span:hover:after {
+  width: 100%;
+}
+
+nav.OpenUp {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font: 400 normal 6rem/7.5rem PierSans;
+  font-size: 5rem;
+  font-weight: bold;
+}
+
+nav.OpenUp div span:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 0%;
+  overflow: hidden;
+}
+
+nav.OpenUp div span:nth-child(1):before {
+  content: "Shop";
+}
+
+nav.OpenUp div span:nth-child(2):before {
+  content: "About";
+}
+
+nav.OpenUp div span:nth-child(3):before {
+  content: "Oil Facts";
+}
+
+nav.OpenUp div span:nth-child(4):before {
+  content: "FAQ";
+}
+/*# sourceMappingURL=NavigationLinks.css.map */

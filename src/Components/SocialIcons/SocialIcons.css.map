@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AACA,AAAA,aAAa,CAAC;EACV,QAAQ,EAAE,QAAQ;EAClB,IAAI,EAAE,GAAG;EACT,GAAG,EAAE,GAAG;EACR,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,KAAK,EAAE,WAAW;CACrB",
+    "sources": [
+        "SocialIcons.scss",
+        "../../assets/Colors/Color_Pallet.scss"
+    ],
+    "names": [],
+    "file": "SocialIcons.css"
+}

@@ -1,0 +1,56 @@
+a {
+  position: relative;
+  display: block;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+a img {
+  width: 3rem;
+  height: 3rem;
+}
+
+a.GreyBack:before {
+  content: "";
+  -webkit-transform: scale(2);
+          transform: scale(2);
+  opacity: 1;
+  background-color: white;
+}
+
+a:before {
+  content: " ";
+  position: absolute;
+  width: 100%;
+  height: 85%;
+  top: 0;
+  left: 0;
+  -webkit-transform: scale(0.5);
+          transform: scale(0.5);
+  opacity: 0;
+  -webkit-transform-origin: 50% 50%;
+          transform-origin: 50% 50%;
+  border-radius: 50%;
+  background-color: #c0bdbd;
+  z-index: -1;
+  -webkit-transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+a:hover:before {
+  content: " ";
+  position: absolute;
+  width: 100%;
+  height: 85%;
+  top: 0;
+  left: 0;
+  -webkit-transform: scale(2.5);
+          transform: scale(2.5);
+  opacity: 1;
+  -webkit-transform-origin: 50% 50%;
+          transform-origin: 50% 50%;
+  border-radius: 50%;
+  z-index: -1;
+}
+/*# sourceMappingURL=IconWithGreyBack.css.map */

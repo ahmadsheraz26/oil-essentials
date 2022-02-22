@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,uBAAuB,CAAC;EAEpB,QAAQ,EAAC,MAAM;CAMlB;;AARD,AAKI,uBALmB,CAKnB,GAAG,CAAC;EACA,MAAM,EAAE,CAAC;CACZ",
+    "sources": [
+        "ScrollableText.scss"
+    ],
+    "names": [],
+    "file": "ScrollableText.css"
+}

@@ -1,0 +1,9 @@
+#HamburgerIcon {
+    width: 6rem;
+    height: 6rem;
+    transform-origin:50% 50%;
+    transition: 1s ease;
+    &:hover {
+        transform: scale(1.2);
+    }
+}

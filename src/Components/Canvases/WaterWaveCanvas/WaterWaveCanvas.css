@@ -1,0 +1,11 @@
+.WaterWaveImage {
+  position: relative;
+  display: block;
+}
+
+.WaterWave {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+/*# sourceMappingURL=WaterWaveCanvas.css.map */

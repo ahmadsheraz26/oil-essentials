@@ -1,0 +1,57 @@
+canvas {
+  position: absolute;
+  z-index: -1;
+}
+
+main {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 0.29fr 1fr 40vw;
+      grid-template-columns: 0.29fr 1fr 40vw;
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main #ProductDetails {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main #ProductDetails .Heading {
+  font-size: 12rem;
+  font-weight: bold;
+}
+
+main #ProductDetails .Description {
+  font-variant: petite-caps;
+  color: #818181;
+}
+
+main #ProductDetails .Description div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 2rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  height: 150px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+/*# sourceMappingURL=MainContent.css.map */

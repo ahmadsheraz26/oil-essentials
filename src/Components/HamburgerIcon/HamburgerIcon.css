@@ -1,0 +1,14 @@
+#HamburgerIcon {
+  width: 6rem;
+  height: 6rem;
+  -webkit-transform-origin: 50% 50%;
+          transform-origin: 50% 50%;
+  -webkit-transition: 1s ease;
+  transition: 1s ease;
+}
+
+#HamburgerIcon:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+/*# sourceMappingURL=HamburgerIcon.css.map */

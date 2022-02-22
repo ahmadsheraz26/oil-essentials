@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,YAAY,CAAC;EACT,SAAS,EAAC,cAAc;CAG3B",
+    "sources": [
+        "TimerButton.scss"
+    ],
+    "names": [],
+    "file": "TimerButton.css"
+}

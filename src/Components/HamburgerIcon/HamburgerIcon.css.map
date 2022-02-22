@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,cAAc,CAAC;EACX,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;EACZ,gBAAgB,EAAC,OAAO;EACxB,UAAU,EAAE,OAAO;CAItB;;AARD,AAKI,cALU,AAKT,MAAM,CAAC;EACJ,SAAS,EAAE,UAAU;CACxB",
+    "sources": [
+        "HamburgerIcon.scss"
+    ],
+    "names": [],
+    "file": "HamburgerIcon.css"
+}
